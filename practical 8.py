@@ -1,0 +1,10 @@
+feedback = input("Enter customer feedback: ")
+
+feedback = feedback.strip()
+feedback = feedback.capitalize()
+
+print("\n----- CUSTOMER FEEDBACK -----")
+print("Feedback:", feedback)
+print("Thank you for your valuable feedback!")
+print("-----------------------------")
+
